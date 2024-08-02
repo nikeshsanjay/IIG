@@ -1,0 +1,13 @@
+.RnMbg-custom{
+    background-image: url(../images/RMBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.csf-custom{
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}

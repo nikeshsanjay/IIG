@@ -1,0 +1,159 @@
+.Home {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.background-container {
+    background-image: url(../images/Home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fid-custom {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.716);
+}
+
+.Fi-custom {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.fis-custom {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.inquire-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #CF2025;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inquire-button:hover {
+    background-color: rgba(255, 69, 0, 1);
+}
+
+.df2-custom {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.offer-custom {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 40px 0;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    background-color: #CF2025;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: white;
+}
+
+.bg2-custom {
+    background-image: url(../images/bgd2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.contact-details {
+    width: 100%;
+    max-width: 900px;
+}
+
+.contact-details h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 100px;
+}
+
+.contact-item {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.contact-item p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.pos-custom{
+    position: fixed;
+    width: 100%;
+}

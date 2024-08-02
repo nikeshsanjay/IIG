@@ -1,0 +1,53 @@
+.services-dashboard {
+  background-color: #c8c8c894;
+  width: fit-content;
+  float: left;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-link {
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s, color 0.3s;
+  display: block;
+  border-radius: 10px;
+}
+
+.service-link:hover {
+  color: #ff4500;
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.service-label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.active-service-link {
+  background-color: #ffe4e1;
+  color: #ff4500;
+  border-bottom: 3px solid #ff4500;
+}
+
+@media (max-width: 767px) {
+  .service-item {
+    margin-bottom: 10px;
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  .service-label {
+    font-size: 0.9rem;
+  }
+}

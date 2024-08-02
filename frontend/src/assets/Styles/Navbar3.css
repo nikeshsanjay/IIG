@@ -1,0 +1,53 @@
+.Navbar-custom {
+    background-color: rgba(137, 0, 0, 0.8) !important;
+    padding: 10px 20px;
+}
+
+.brand-custom {
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+.logo-custom {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.nav-link-custom {
+    font-size: 1.2rem;
+    color: white !important;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ff4500 !important;
+}
+
+.account-dropdown-custom .dropdown-menu {
+    background-color: rgba(137, 0, 0, 0.9);
+}
+
+.account-dropdown-custom .dropdown-item-custom {
+    font-size: 1.2rem;
+    color: white !important;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.account-dropdown-custom .dropdown-item-custom:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ff4500 !important;
+}
+
+@media (max-width: 992px) {
+    .nav-link-custom {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
