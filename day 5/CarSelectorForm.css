@@ -1,0 +1,60 @@
+.car-selector-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 400px;
+  }
+  
+  .car-selector-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .car-selector-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .car-selector-form .form-control {
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  .car-selector-form .btn-primary {
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 69, 0, 1);
+    border-color: #007bff;
+    font-size: 1.25rem;
+    padding: 10px;
+  }
+  
+  .car-selector-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  @media (max-width: 767px) {
+    .car-selector-form {
+      padding: 20px;
+    }
+    
+    .car-selector-form h2 {
+      font-size: 1.5rem;
+    }
+    
+    .car-selector-form .form-control {
+      font-size: 0.875rem;
+    }
+    
+    .car-selector-form .btn-primary {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+  

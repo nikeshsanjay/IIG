@@ -1,0 +1,42 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: #495057;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .maintenance-container, .diagnostic-container, .recommendations-container, .tutorials-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #343a40;
+  }
+  

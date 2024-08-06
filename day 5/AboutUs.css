@@ -1,0 +1,82 @@
+.aboutus-container {
+    padding: 20px;
+  }
+  
+  .aboutus-intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .aboutus-intro h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .aboutus-intro p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .aboutus-team {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .aboutus-team h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .aboutus-values {
+    text-align: center;
+  }
+  
+  .aboutus-values h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .aboutus-values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .aboutus-values li {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
